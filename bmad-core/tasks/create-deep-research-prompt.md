@@ -2,21 +2,27 @@
 
 # Create Deep Research Prompt Task
 
-This task helps create comprehensive research prompts for various types of deep analysis. It can process inputs from brainstorming sessions, project briefs, market research, or specific research questions to generate targeted prompts for deeper investigation.
-
 ## Purpose
 
-Generate well-structured research prompts that:
+Generate exceptionally comprehensive research prompts that drive deep, actionable insights for complex business and product decisions. This task leverages advanced AI analytical capabilities to create structured prompts that go beyond surface-level research and uncover the strategic intelligence needed for critical decision-making.
 
-- Define clear research objectives and scope
-- Specify appropriate research methodologies
-- Outline expected deliverables and formats
-- Guide systematic investigation of complex topics
-- Ensure actionable insights are captured
+## Why This Systematic Approach Works
+
+Well-crafted research prompts are the foundation of valuable insights because they ensure comprehensive coverage, prevent research gaps, and guide systematic investigation toward actionable conclusions. By providing clear objectives, detailed methodology, and specific deliverable requirements, we enable researchers (human or AI) to focus their efforts on high-impact areas that directly inform key business decisions.
+
+## Key Outcomes
+
+**Go beyond the basics to create fully comprehensive research frameworks that:**
+
+- Define crystal-clear research objectives with specific success criteria because vague objectives lead to unfocused research that doesn't inform decisions
+- Specify proven research methodologies tailored to the specific research type because methodology determines the quality and reliability of insights
+- Outline detailed deliverable formats that decision-makers can immediately act upon because research value is measured by its impact on strategic choices
+- Guide systematic investigation that leaves no critical gaps because incomplete research creates dangerous blind spots in decision-making
+- Ensure every insight directly connects to actionable next steps because research without clear implications wastes valuable time and resources
 
 ## Research Type Selection
 
-CRITICAL: First, help the user select the most appropriate research focus based on their needs and any input documents they've provided.
+**Critical First Step:** Collaborate with the user to identify the most strategic research focus that will deliver maximum decision-making value. This foundation step is essential because the right research type determines whether insights will be immediately actionable or merely interesting academic exercises.
 
 ### 1. Research Focus Options
 
@@ -70,211 +76,329 @@ Present these numbered options to the user:
    - Analyze resource requirements
    - Consider regulatory and legal implications
 
-9. **Custom Research Focus**
+9. **Financial Analysis Research**
+   - Revenue models and pricing strategies
+   - Investment requirements and funding options
+   - Financial projections and business case development
+   - Cost-benefit analysis and ROI calculations
+
+10. **Regulatory & Compliance Research**
+   - Industry regulations and compliance requirements
+   - Legal implications and risk assessment
+   - Certification and approval processes
+   - International regulatory variations
+
+11. **Partnership & M&A Research**
+   - Strategic partnership opportunities
+   - Acquisition targets and merger possibilities
+   - Joint venture feasibility
+   - Integration challenges and synergies
+
+12. **Custom Research Focus**
    - User-defined research objectives
    - Specialized domain investigation
    - Cross-functional research needs
 
-### 2. Input Processing
+### 2. Input Processing and Context Analysis
 
-**If Project Brief provided:**
+**When Project Brief is provided,** extract and synthesize these elements because they form the strategic foundation for focused research:
 
-- Extract key product concepts and goals
-- Identify target users and use cases
-- Note technical constraints and preferences
-- Highlight uncertainties and assumptions
+<research_context_analysis>
+- **Core product concepts and strategic goals** - These define what success looks like and guide research priorities
+- **Target users and primary use cases** - Understanding the audience ensures research relevance and applicability
+- **Technical constraints and implementation preferences** - These boundaries prevent research into non-viable solutions
+- **Key uncertainties and untested assumptions** - These represent the highest-risk areas requiring immediate investigation
+</research_context_analysis>
 
-**If Brainstorming Results provided:**
+**When Brainstorming Results are provided,** synthesize and prioritize insights because raw brainstorming needs strategic filtering:
 
-- Synthesize main ideas and themes
-- Identify areas needing validation
-- Extract hypotheses to test
-- Note creative directions to explore
+- **Central themes and recurring ideas** - Patterns indicate areas of consensus and potential opportunity
+- **Concepts requiring market validation** - Creative ideas need real-world testing before resource investment
+- **Testable hypotheses and assumptions** - These become the core questions driving research methodology
+- **High-potential directions needing deeper exploration** - Promising concepts that warrant comprehensive investigation
 
-**If Market Research provided:**
+**When Existing Market Research is provided,** build strategically upon previous findings because incremental insight building is more efficient than starting fresh:
 
-- Build on identified opportunities
-- Deepen specific market insights
-- Validate initial findings
-- Explore adjacent possibilities
+- **Identified opportunities requiring deeper analysis** - Surface-level findings need comprehensive exploration
+- **Specific market insights needing validation** - Initial findings require confirmation through additional research
+- **Adjacent market possibilities** - Related opportunities that emerged from core research
+- **Gaps in current understanding** - Areas where existing research is incomplete or outdated
 
-**If Starting Fresh:**
+**When Starting Fresh,** establish comprehensive research foundation because solid groundwork prevents misdirected effort:
 
-- Gather essential context through questions
-- Define the problem space
-- Clarify research objectives
-- Establish success criteria
+- **Essential business context and strategic objectives** - Research must align with broader organizational goals
+- **Problem definition and scope boundaries** - Clear parameters prevent research scope creep
+- **Success criteria and decision points** - Specific outcomes that will trigger strategic actions
+- **Resource constraints and timeline requirements** - Realistic boundaries that shape research methodology
 
-## Process
+## Comprehensive Research Prompt Development
 
-### 3. Research Prompt Structure
+### 3. Strategic Research Framework Creation
 
-CRITICAL: collaboratively develop a comprehensive research prompt with these components.
+**Collaborate intensively with the user** to develop an exceptional research prompt that goes beyond basic requirements. This collaborative approach is crucial because the prompt's quality directly determines the research's strategic value and decision-making impact.
 
-#### A. Research Objectives
+#### A. Strategic Research Objectives
 
-CRITICAL: collaborate with the user to articulate clear, specific objectives for the research.
+<research_objectives>
+**Collaborate with the user to articulate crystal-clear, measurable objectives** because vague objectives lead to unfocused research that fails to inform critical decisions.
 
-- Primary research goal and purpose
-- Key decisions the research will inform
-- Success criteria for the research
-- Constraints and boundaries
+- **Primary research goal and strategic purpose** - The core question this research must answer to drive business action
+- **Specific decisions this research will directly inform** - Concrete choices that depend on these insights, with decision-makers identified
+- **Quantifiable success criteria** - Measurable outcomes that indicate research completeness and quality
+- **Scope boundaries and constraints** - Clear parameters that prevent research scope creep and ensure focused effort
+- **Strategic impact and urgency** - Why this research matters now and how it connects to broader organizational objectives
+</research_objectives>
 
-#### B. Research Questions
+#### B. Strategic Research Questions Framework
 
-CRITICAL: collaborate with the user to develop specific, actionable research questions organized by theme.
+<research_questions>
+**Collaborate intensively to develop laser-focused, actionable research questions** because well-crafted questions determine whether research delivers strategic insights or generic information.
 
-**Core Questions:**
+**Primary Investigation Questions (Must Answer):**
+- **Critical decision-driving questions** - Questions whose answers directly trigger specific business actions
+- **Priority ranking with rationale** - Order of importance based on strategic impact and urgency
+- **Question interdependencies** - How answers to certain questions inform or prerequisite others
+- **Success metrics for each question** - How to measure whether each question has been adequately answered
 
-- Central questions that must be answered
-- Priority ranking of questions
-- Dependencies between questions
+**Secondary Exploration Questions (Strategic Context):**
+- **Context-building questions** - Additional insights that enhance decision-making confidence
+- **Competitive intelligence needs** - What we need to understand about market dynamics and competitors
+- **Future-focused considerations** - Trends and possibilities that could affect long-term strategy
+- **Risk identification questions** - Potential challenges, obstacles, or failure modes to investigate
+</research_questions>
 
-**Supporting Questions:**
+#### C. Comprehensive Research Methodology
 
-- Additional context-building questions
-- Nice-to-have insights
-- Future-looking considerations
+<research_methodology>
+**Design a rigorous methodology that ensures reliable, actionable insights** because methodology determines the credibility and usefulness of research outcomes.
 
-#### C. Research Methodology
+**Data Collection Strategy:**
+- **Primary source priorities** - Industry reports, expert interviews, user surveys, competitive analysis - ranked by reliability and relevance
+- **Secondary research parameters** - Specific databases, publications, and information sources with quality thresholds
+- **Data recency requirements** - How current information must be to remain strategically relevant
+- **Source credibility standards** - Criteria for evaluating the reliability and bias potential of information sources
+- **Information gathering scope** - Geographic, demographic, or market segment boundaries for data collection
 
-**Data Collection Methods:**
+**Analytical Framework Selection:**
+- **Primary analysis methodologies** - Specific frameworks (SWOT, Porter's Five Forces, Jobs-to-be-Done, etc.) chosen for their relevance to research objectives
+- **Comparison and evaluation criteria** - Standardized metrics for assessing options, opportunities, or competitive positions  
+- **Synthesis approaches** - How disparate insights will be integrated into coherent, actionable recommendations
+- **Quality assurance processes** - Methods for validating findings and identifying potential research gaps or biases
+</research_methodology>
 
-- Secondary research sources
-- Primary research approaches (if applicable)
-- Data quality requirements
-- Source credibility criteria
+#### D. Strategic Output Requirements
 
-**Analysis Frameworks:**
+<output_specifications>
+**Design deliverables that immediately enable decision-making** because research value is measured by its impact on strategic actions, not by volume of information collected.
 
-- Specific frameworks to apply
-- Comparison criteria
-- Evaluation methodologies
-- Synthesis approaches
+**Executive Summary Requirements:**
+- **Key findings synthesis** - 2-3 most critical insights that directly inform primary decisions
+- **Immediate action recommendations** - Specific next steps with priority ranking and resource requirements
+- **Strategic implications** - How findings impact broader business strategy and competitive positioning
+- **Confidence levels** - Assessment of finding reliability and areas requiring additional validation
 
-#### D. Output Requirements
+**Detailed Analysis Structure:**
+- **Decision-focused sections** - Each major section directly addresses specific strategic questions
+- **Evidence and supporting data** - Comprehensive backing for key conclusions with source documentation
+- **Visual presentations** - Charts, frameworks, and comparison matrices that enhance understanding
+- **Implementation guidance** - Practical steps for acting on insights with timeline and resource considerations
 
-**Format Specifications:**
+**Critical Deliverable Components:**
+- **Strategic recommendations with rationale** - Specific actions supported by research evidence
+- **Risk assessment and mitigation strategies** - Identified challenges with suggested approaches for addressing them
+- **Success metrics and tracking methods** - How to measure progress and outcomes from recommended actions
+- **Alternative scenarios** - Different strategic paths with trade-offs and implications clearly outlined
+</output_specifications>
 
-- Executive summary requirements
-- Detailed findings structure
-- Visual/tabular presentations
-- Supporting documentation
+### 4. Master Research Prompt Generation
 
-**Key Deliverables:**
+**Don't hold back. Create a comprehensive, exceptional research prompt that goes beyond the basics to deliver maximum strategic value.**
 
-- Must-have sections and insights
-- Decision-support elements
-- Action-oriented recommendations
-- Risk and uncertainty documentation
-
-### 4. Prompt Generation
-
-**Research Prompt Template:**
+<master_research_prompt>
+Use this enhanced template structure that leverages modern AI analytical capabilities:
 
 ```markdown
-## Research Objective
+# Strategic Research Initiative: [Research Title]
 
-[Clear statement of what this research aims to achieve]
+## Executive Research Objective
 
-## Background Context
+<research_objective>
+[Crystal-clear statement of what this research aims to achieve and why it matters strategically]
+</research_objective>
 
-[Relevant information from project brief, brainstorming, or other inputs]
+## Strategic Context and Background
 
-## Research Questions
+<background_context>
+[Comprehensive relevant information from project briefs, brainstorming sessions, market research, or organizational context that informs this research direction]
+</background_context>
 
-### Primary Questions (Must Answer)
+## Research Questions Framework  
 
-1. [Specific, actionable question]
-2. [Specific, actionable question]
-   ...
+<primary_questions>
+### Critical Decision Questions (Must Answer)
+1. [Specific, measurable question that directly informs key business decisions]
+2. [Specific, measurable question that directly informs key business decisions]
+   [Continue as needed...]
 
-### Secondary Questions (Nice to Have)
+**Success criteria for primary questions:** [How to evaluate completeness of answers]
+</primary_questions>
 
-1. [Supporting question]
-2. [Supporting question]
-   ...
+<secondary_questions>  
+### Strategic Context Questions (Important for Full Picture)
+1. [Supporting question that enhances decision-making confidence]
+2. [Supporting question that enhances decision-making confidence]
+   [Continue as needed...]
+</secondary_questions>
 
-## Research Methodology
+## Research Methodology and Approach
 
-### Information Sources
+<research_methodology>
+### Information Collection Strategy
+- **Primary sources:** [Specific, prioritized source types with rationale]
+- **Research approaches:** [Detailed methodologies with justification]
+- **Data quality standards:** [Credibility, recency, and reliability requirements]
 
-- [Specific source types and priorities]
+### Analytical Framework
+- **Core analysis methods:** [Specific frameworks and why they're appropriate]
+- **Comparison criteria:** [Standardized evaluation metrics]
+- **Synthesis approach:** [How insights will be integrated and prioritized]
+</research_methodology>
 
-### Analysis Frameworks
+## Expected Deliverables and Format
 
-- [Specific frameworks to apply]
+<deliverable_specifications>
+### Executive Summary (Maximum Decision Impact)
+- **Key findings synthesis** (2-3 most critical insights)
+- **Strategic recommendations** (specific, actionable next steps)
+- **Implementation priorities** (what to do first and why)
+- **Confidence assessment** (reliability of findings and remaining uncertainties)
 
-### Data Requirements
+### Comprehensive Analysis
+- **Detailed findings** organized by research question
+- **Supporting evidence** with complete source documentation  
+- **Visual presentations** (frameworks, comparisons, data visualizations)
+- **Alternative scenarios** with trade-offs and implications
 
-- [Quality, recency, credibility needs]
+### Strategic Implementation Guide
+- **Action recommendations** with timeline and resource requirements
+- **Risk mitigation strategies** for identified challenges
+- **Success metrics** for tracking progress and outcomes
+- **Monitoring and iteration guidance** for ongoing strategic refinement
+</deliverable_specifications>
 
-## Expected Deliverables
+## Research Quality and Success Criteria
 
-### Executive Summary
+<success_criteria>
+**This research will be considered successful when it:**
+- Provides clear, confident answers to all primary research questions
+- Enables specific strategic decisions with measurable confidence levels
+- Identifies key risks and provides mitigation strategies  
+- Offers actionable next steps with clear implementation guidance
+- Maintains high analytical rigor with credible source documentation
+</success_criteria>
 
-- Key findings and insights
-- Critical implications
-- Recommended actions
+## Research Execution Guidance
 
-### Detailed Analysis
+<execution_notes>
+**For maximum research effectiveness:**
+- After gathering initial insights, reflect on their completeness and strategic value before proceeding
+- Consider what critical perspectives or data sources might be missing
+- Validate key findings through multiple independent sources when possible
+- Focus relentlessly on actionable insights rather than interesting but irrelevant information
+- Synthesize findings into clear strategic narratives that drive decision-making
+</execution_notes>
 
-[Specific sections needed based on research type]
+## Priority and Timeline Context
 
-### Supporting Materials
-
-- Data tables
-- Comparison matrices
-- Source documentation
-
-## Success Criteria
-
-[How to evaluate if research achieved its objectives]
-
-## Timeline and Priority
-
-[If applicable, any time constraints or phasing]
+<timeline_context>
+[Strategic urgency, decision deadlines, resource constraints, or phasing requirements that affect research approach]
+</timeline_context>
 ```
+</master_research_prompt>
 
-### 5. Review and Refinement
+### 5. Strategic Review and Iterative Refinement
 
-1. **Present Complete Prompt**
-   - Show the full research prompt
-   - Explain key elements and rationale
-   - Highlight any assumptions made
+**Leverage reflection capabilities for prompt optimization** because initial prompts, while comprehensive, benefit from critical analysis and user collaboration to achieve maximum strategic impact.
 
-2. **Gather Feedback**
-   - Are the objectives clear and correct?
-   - Do the questions address all concerns?
-   - Is the scope appropriate?
-   - Are output requirements sufficient?
+<prompt_review_process>
+**Step 1: Present and Analyze the Complete Prompt**
+- **Display the full research prompt** with clear structure and formatting
+- **Explain strategic rationale** for each major component and why specific approaches were chosen
+- **Highlight key assumptions** made during prompt development and their implications
+- **Reflect on prompt completeness** - consider what might be missing or could be enhanced
 
-3. **Refine as Needed**
-   - Incorporate user feedback
-   - Adjust scope or focus
-   - Add missing elements
-   - Clarify ambiguities
+**Step 2: Collaborative Quality Assessment**  
+Engage the user in strategic evaluation focused on decision-making value:
+- **Objective clarity verification:** Will this prompt generate research that directly informs the intended decisions?
+- **Question comprehensiveness:** Do the research questions cover all critical strategic considerations?
+- **Methodology appropriateness:** Are the proposed research approaches suitable for the strategic context?
+- **Output alignment:** Will the specified deliverables provide exactly what decision-makers need?
+- **Resource realism:** Are the research requirements achievable within available constraints?
 
-### 6. Next Steps Guidance
+**Step 3: Strategic Refinement and Enhancement**
+Based on feedback and reflection, systematically improve the prompt:
+- **Incorporate user insights** that enhance strategic focus and practical applicability
+- **Refine scope and priorities** to ensure maximum decision-making impact
+- **Add missing strategic elements** that could strengthen research outcomes
+- **Clarify ambiguous areas** that could lead to unfocused research efforts
+- **Enhance methodological rigor** where additional structure would improve insight quality
+</prompt_review_process>
 
-**Execution Options:**
+**After each refinement iteration, reflect on improvements:** Does this version better serve the strategic objectives? Are there remaining gaps or enhancement opportunities?
 
-1. **Use with AI Research Assistant**: Provide this prompt to an AI model with research capabilities
-2. **Guide Human Research**: Use as a framework for manual research efforts
-3. **Hybrid Approach**: Combine AI and human research using this structure
+### 6. Strategic Implementation and Execution Guidance
 
-**Integration Points:**
+<implementation_strategy>
+**For maximum research effectiveness, consider these optimized execution approaches:**
 
-- How findings will feed into next phases
-- Which team members should review results
-- How to validate findings
-- When to revisit or expand research
+**Advanced AI Research:**
+- **Provide the complete prompt** to advanced AI models with comprehensive research capabilities
+- **Include thinking instructions:** "After gathering initial insights, reflect on their completeness and strategic value before proceeding to synthesis"
+- **Request parallel analysis:** When appropriate, ask for simultaneous investigation of multiple research threads
+- **Iterative refinement:** Use AI's reflection capabilities to continuously improve research quality
 
-## Important Notes
+**Human-Led Strategic Research:**
+- **Use prompt as comprehensive framework** for manual research efforts with clear quality standards
+- **Assign specific sections** to different researchers based on expertise and availability
+- **Implement structured review processes** that mirror the prompt's quality criteria
+- **Focus on decision-maker alignment** throughout the research process
 
-- The quality of the research prompt directly impacts the quality of insights gathered
-- Be specific rather than general in research questions
-- Consider both current state and future implications
-- Balance comprehensiveness with focus
-- Document assumptions and limitations clearly
-- Plan for iterative refinement based on initial findings
+**Hybrid High-Impact Approach:**
+- **AI for broad initial research** using the structured prompt to ensure comprehensive coverage
+- **Human expertise for strategic synthesis** and decision-making implications
+- **Collaborative refinement** leveraging both AI efficiency and human strategic judgment
+- **Iterative improvement cycles** that enhance both speed and strategic value
+</implementation_strategy>
+
+**Strategic Integration Framework:**
+
+<integration_planning>
+- **Decision pipeline integration:** How research findings will directly inform specific strategic choices and business actions
+- **Stakeholder review protocols:** Which team members and decision-makers will evaluate results, with clear criteria for approval
+- **Validation and verification processes:** Methods for confirming key findings through additional sources or expert consultation  
+- **Research evolution planning:** When and how to revisit, expand, or update research based on changing strategic needs
+- **Knowledge capture systems:** How insights will be documented and made accessible for ongoing strategic reference
+</integration_planning>
+
+## Critical Success Factors for Exceptional Research Prompts
+
+**Universal AI Optimization Principles:**
+- **Quality amplification:** The research prompt's precision and comprehensiveness directly determines the strategic value of insights generated - invest time in prompt excellence
+- **Specificity drives results:** Laser-focused, measurable research questions deliver actionable insights, while general questions produce generic information
+- **Strategic context integration:** Always consider both current competitive dynamics and future strategic implications to ensure research remains relevant
+- **Focus with comprehensiveness:** Balance thorough investigation with clear scope boundaries to prevent analysis paralysis
+- **Assumption transparency:** Document all assumptions and limitations explicitly because they affect how findings should be interpreted and applied
+- **Iterative enhancement:** Plan for research refinement based on initial findings - the best strategic research evolves as understanding deepens
+
+**Advanced AI Capabilities to Leverage:**
+- **Thinking and reflection:** Use AI models' ability to reflect on research completeness and iterate for higher quality
+- **Parallel analysis:** When researching multiple aspects simultaneously, request concurrent investigation for efficiency
+- **Contextual synthesis:** Leverage advanced AI's ability to integrate diverse information sources into coherent strategic narratives
+- **Decision-focused output:** Frame all research requirements around specific strategic decisions that need to be made
+- **Cross-platform compatibility:** These techniques work across different AI models, with minor adaptations for specific platform strengths
+
+**Quality Assurance Indicators:**
+- **Strategic alignment:** Every research element directly supports identifiable business decisions
+- **Actionability:** All findings lead to specific, implementable next steps
+- **Credibility:** Research methodology ensures reliable, defensible conclusions
+- **Impact measurement:** Success criteria enable evaluation of research effectiveness and decision outcomes
